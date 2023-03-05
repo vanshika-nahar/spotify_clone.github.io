@@ -1,84 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Spotify - Your favrouite music is here</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your favrouite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <nav>
-            <ul>
-                <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
-                <li>Home</li>
-                <li>About</li>
-            </ul>
-        </nav>
-        <div class="container">
-            <div class="songList"> 
-                <h1>Best of Ed Sheeran - No Copyright Sounds</h1>
-                <div class="songListContainer">
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Ed Sheeran - No Copyright Sounds</h1>
+            <div class="songListContainer">
                 <div class="songItem">
                     <img alt="1">
                     <span class="songName">Bad Habits</span>
-                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="0" class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
+                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="0"
+                                class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
                     <img alt="2">
                     <span class="songName">Shape of you</span>
-                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="1" class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
+                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="1"
+                                class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
                     <img alt="3">
                     <span class="songName">Perfect</span>
-                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="2" class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
+                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="2"
+                                class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
                     <img alt="4">
                     <span class="songName">Shivers</span>
-                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="3" class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
+                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="3"
+                                class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
                     <img alt="5">
                     <span class="songName">Photograph</span>
-                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="4" class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
+                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="4"
+                                class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
                     <img alt="6">
                     <span class="songName">Tides</span>
-                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="5" class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
+                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="5"
+                                class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
                     <img alt="7">
                     <span class="songName">Galway girl</span>
-                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="6" class="songItemsPLay fa-solid songItemsPLay fa-circle-play"></i></span></span>
+                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="6"
+                                class="songItemsPLay fa-solid songItemsPLay fa-circle-play"></i></span></span>
                 </div>
                 <div class="songItem">
                     <img alt="8">
                     <span class="songName">I don't care</span>
-                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="7" class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
+                    <span class="songListPlay"><span class="timeSpan">03:32 <i id="7"
+                                class="songItemsPLay fa-solid fa-circle-play"></i></span></span>
                 </div>
-                </div>
-            </div>
-            <div class="songBanner"></div>
-        </div>
-        <div class="bottom">
-            <div class="icons">
-                <!-- fontawsome icons  -->
-                <i class="fa-solid fa-3x fa-backward prevIcon" id="previous"></i>
-                <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
-                <i class="fa-solid fa-3x fa-forward nextIcon" id="next"></i>
-            </div>
-            <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
-            <div class="songInfo">
-                <img src="playing.gif" width="200" height="25" alt="" id="gif"> <span id="masterSongName" style="letter-spacing: 2px;">Bad Habits - Ed Shereen</span>
             </div>
         </div>
-        <script src="https://kit.fontawesome.com/03abdafda3.js" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
-    </body>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <div class="icons">
+            <!-- fontawsome icons  -->
+            <i class="fa-solid fa-3x fa-backward prevIcon" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward nextIcon" id="next"></i>
+        </div>
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="songInfo">
+            <img class="gif" src="playing.gif" width="200" height="25" alt="" id="gif"> <span id="masterSongName"
+                style="letter-spacing: 2px;">Bad Habits - Ed Shereen</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/03abdafda3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
 
 </html>
